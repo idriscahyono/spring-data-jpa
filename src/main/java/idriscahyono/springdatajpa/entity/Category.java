@@ -4,6 +4,7 @@ import lombok.*;
 import net.bytebuddy.asm.Advice;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Getter
 @Setter
@@ -18,4 +19,7 @@ public class Category {
     private Long id;
 
     private String name;
+
+    @OneToMany(mappedBy = "category")
+    private List<Product> products;
 }
