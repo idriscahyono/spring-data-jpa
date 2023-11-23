@@ -1,4 +1,4 @@
-package idriscahyono.springdatajpa;
+package idriscahyono.springdatajpa.repository;
 
 import idriscahyono.springdatajpa.entity.Category;
 import idriscahyono.springdatajpa.repository.CategoryRepository;

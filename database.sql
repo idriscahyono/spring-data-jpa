@@ -3,7 +3,7 @@ CREATE TABLE categories(
     name VARCHAR(255) NOT NULL
 );
 
-SELECT * FROM categories
+SELECT * FROM categories;
 
 CREATE TABLE products(
     id SERIAL NOT NULL PRIMARY KEY,
